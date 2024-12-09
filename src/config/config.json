@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "admin",
+    "database": "Tasklist",
+    "host": "localhost",
+    "dialect": "postgres",
+    "define":{
+      "timestamps": "true",
+      "underscored": "true",
+      "underscoreAll": "true"
+    }
+  },
+  "test": {
+    "username": "admin",
+    "password": "admin",
+    "database": "Tasklist",
+    "host": "localhost",
+    "dialect": "postgres",
+    "define":{
+      "timestamps": "true",
+      "underscored": "true",
+      "underscoreAll": "true"
+    }
+  },
+  "production": {
+    "username": "admin",
+    "password": "admin",
+    "database": "Tasklist",
+    "host": "localhost",
+    "dialect": "postgres",
+    "define":{
+      "timestamps": "true",
+      "underscored": "true",
+      "underscoreAll": "true"
+    }
+  }
+}
